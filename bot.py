@@ -36,11 +36,11 @@ FILE_IDS_PATH = "video_file_ids.json"
 #   3. The bot will reply with the file_id — copy it and paste it below.
 # Once a topic's file_id is filled in here, no local video file is needed at all.
 VIDEO_FILE_IDS = {
-    "exness":     "BAACAgUAAxkBAANMamh_LKhmHMU2EcgGqDwFMZyHa-IAAh8iAAIOEUBXvy6QPMbl4Gw9BA",  # paste exness file_id here
-    "mt5":        "BAACAgUAAxkBAANOamh_Sw_YU-PVmujrcnvQX9Iw-hUAAiAiAAIOEUBXICC1wirvWxU9BA",  # paste mt5 file_id here
-    "deposit":    "BAACAgUAAxkBAANQamh_WT-8h7w5ELAC_CX0KJIiJMsAAiIiAAIOEUBXmmnBpk8tb4c9BA",  # paste deposit file_id here
-    "withdraw":   "BAACAgUAAxkBAANSamh_bkXQ6dJhMEH2B9MGNuNdQFEAAiMiAAIOEUBXCezfBZkruiE9BA",  # paste withdraw file_id here
-    "changelink": "BAACAgUAAxkBAANUamh_faN5pbjnpae11oq9hcJJOboAAiQiAAIOEUBXSL7Pc5fE_f09BA",  # paste changelink file_id here
+    "exness":     "BAACAgUAAxkBAAMPamiGhf_H85tRcxhbsSpdLSZhGeoAArAhAAJYmElXeEpHMnlyb089BA",  # paste exness file_id here
+    "mt5":        "BAACAgUAAxkBAAMRamiGsbISklz6-E2WJXRDLUwSN9gAArEhAAJYmElXmZzU8jUVbBE9BA",  # paste mt5 file_id here
+    "deposit":    "BAACAgUAAxkBAAMTamiGxTbmWM2WEOCij8obdppKtyQAArIhAAJYmElXOtBs-28LNJw9BA",  # paste deposit file_id here
+    "withdraw":   "BAACAgUAAxkBAAMVamiG2MECQOGefjDWIgNn_6nAykIAArMhAAJYmElXQBww5NRjqkg9BA",  # paste withdraw file_id here
+    "changelink": "BAACAgUAAxkBAAMXamiG52fUsYbZGqczKYK0ETvb3JMAArQhAAJYmElX3xGQA6GFoHg9BA",  # paste changelink file_id here
 }
 
 # Button text in Khmer
