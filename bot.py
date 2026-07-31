@@ -179,28 +179,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=main_keyboard(),
     )
 
-async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Handle /help command."""
-    help_text = (
-        "🤖 ពាក្យបញ្ជារបស់ Bot៖\n\n"
-        "/start - បង្ហាញម៉ឺនុយចម្បង\n"
-        "/help - បង្ហាញជំនួយនេះ\n"
-        "/status - ពិនិត្យស្ថានភាពវីដេអូ\n\n"
-        "គ្រាន់តែចុចប៊ូតុងខាងក្រោមដើម្បីមើលមេរៀន! 👇"
-    )
-    await update.message.reply_text(help_text, reply_markup=main_keyboard())
-
-async def status_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Show status of all videos."""
-    status_text = "📊 ស្ថានភាពវីដេអូ៖\n\n"
-
-    for key in VIDEO_FILE_IDS.keys():
-        has_file_id = bool(FILE_IDS.get(key))
-        icon = "✅" if has_file_id else "⏳"
-        status_text += f"{icon} {key}: {'មានវីដេអូរួចហើយ' if has_file_id else 'មិនទាន់មានវីដេអូ (ត្រូវផ្ញើវីដេអូ ដើម្បីយក file_id)'}\n"
-
-    await update.message.reply_text(status_text, reply_markup=main_keyboard())
-
 async def get_file_id(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Extract file_id from a message (for debugging)."""
     msg = update.message
