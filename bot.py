@@ -239,8 +239,6 @@ def main() -> None:
 
     # Add handlers
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("help", help_command))
-    app.add_handler(CommandHandler("status", status_command))
     app.add_handler(MessageHandler(filters.VIDEO | filters.Document.ALL, get_file_id))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
