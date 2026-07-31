@@ -175,7 +175,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /start command."""
     context.user_data.clear()
     await update.message.reply_text(
-        "👋 សូមស្វាគមន៍!\n\n👇 សូមជ្រើសរើសVideoខាងក្រោម៖",
+        "👋 សូមស្វាគមន៍មកកាន់GenZ Exess Support BOT!\n\n👇 សូមជ្រើសរើសVideoខាងក្រោម៖",
         reply_markup=main_keyboard(),
     )
 
